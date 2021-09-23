@@ -1,0 +1,51 @@
+.App {
+  /* text-align: center; */
+  background-color: #282c34;
+  min-height: 89.5vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-left: 300px;
+  padding-top: 100px;
+}
+
+table {
+  border: 1px solid #eee;
+  border-collapse: collapse;
+}
+
+table tr th,
+td {
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+.btn {
+  height: 30px;
+  width: 48%;
+  margin-left: 2px;
+}
+
+.del:hover {
+  color: red;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.edit:hover {
+  color: rgb(6, 105, 72);
+  font-size: 14px;
+  font-weight: bold;
+}
+form {
+  margin-bottom: 20px;
+}
+form input {
+  width: 150px;
+  height: 20px;
+}
+
+form button {
+  height: 27px;
+  cursor: pointer;
+}
